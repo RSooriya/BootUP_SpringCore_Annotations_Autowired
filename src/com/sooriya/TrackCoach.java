@@ -3,6 +3,7 @@ package com.sooriya;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+//@Autowired annotation above setter method - setter injection 
 @Component
 public class TrackCoach implements Coach {
     

@@ -3,6 +3,7 @@ package com.sooriya;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+//@Autowired annotation above any method - method injection 
 @Component
 public class CricketCoach implements Coach {
 
